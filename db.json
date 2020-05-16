@@ -1,11 +1,69 @@
-{
-  "posts": [
+vehichles : 
     {
-      "id": 1,
-      "title": "hello"
+      rows: [
+        {
+          vehicleNo: "AC 123",
+          dateOfReg: "02.10.2013",
+          statusOfReg: "Pending",
+          EngineType: "BS4",
+          year: 2010,
+        },
+        {
+          vehicleNo: "DL 1237",
+          dateOfReg: "12.10.2013",
+          statusOfReg: "Registered",
+          EngineType: "BS6",
+          year: 2000,
+        },
+        {
+          vehicleNo: "UK 1236",
+          dateOfReg: "22.11.2015",
+          statusOfReg: "Pending",
+          EngineType: "BS4",
+          year: 2009,
+        },
+        {
+          vehicleNo: "DC 4123",
+          dateOfReg: "12.10.2013",
+          statusOfReg: "Registered",
+          EngineType: "BS4",
+          year: 2015,
+        },
+        {
+          vehicleNo: "NP 8123",
+          dateOfReg: "11.08.2019",
+          statusOfReg: "Pending",
+          EngineType: "BS6",
+          year: 2019,
+        },
+        {
+          vehicleNo: "DQ 1233",
+          dateOfReg: "15.02.2018",
+          statusOfReg: "Registered",
+          EngineType: "BS4",
+          year: 2020,
+        },
+        {
+          vehicleNo: "PO 1283",
+          dateOfReg: "08.01.2010",
+          statusOfReg: "Pending",
+          EngineType: "BS3",
+          year: 2016,
+        },
+
+        {
+          vehicleNo: "HP 1243",
+          dateOfReg: "12.10.2013",
+          statusOfReg: "Registered",
+          EngineType: "BS4",
+          year: 2008,
+        },
+      ],
+      columns: [
+        { title: "Vehicle No", field: "vehicleNo" },
+        { title: "Date of Reg", field: "dateOfReg", type: "date" },
+        { title: "Status of Reg", field: "statusOfReg" },
+        { title: "Engine Type", field: "EngineType" },
+        { title: "Modal Year", field: "year" },
+      ]
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
-}
